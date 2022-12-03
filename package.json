@@ -1,0 +1,50 @@
+{
+  "name": "miflix-category-api",
+  "version": "0.1.0",
+  "description": "category manager service",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start:docker": "docker-compose up -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18 <20",
+    "npm": ">=8"
+  },
+  "os": [
+    "linux",
+    "windows"
+  ],
+  "config": {
+    "port": "5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelinosandroni/miflix-category-api.git"
+  },
+  "keywords": [
+    "back-end",
+    "api",
+    "ddd",
+    "category",
+    "miflix",
+    "rest",
+    "typescript",
+    "nestjs",
+    "mongo",
+    "eda",
+    "cleanarchitecture"
+  ],
+  "author": {
+    "name": "Marcelino Sandroni",
+    "email": "marcelino.sandroni@gmail.com",
+    "url": "https://github.com/marcelinosandroni"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelinosandroni/miflix-category-api/issues",
+    "email": "marcelino.sandroni@gmail.com"
+  },
+  "homepage": "https://github.com/marcelinosandroni/miflix-category-api#readme"
+}
